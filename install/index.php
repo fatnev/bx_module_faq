@@ -23,9 +23,9 @@ class faq extends CModule
         $this->MODULE_VERSION = $arModuleVersion['VERSION'];
         $this->MODULE_VERSION_DATE = $arModuleVersion['VERSION_DATE'];
         $this->MODULE_NAME = "FAQ Module";
-        $this->MODULE_DESCRIPTION = "Модуль для управления часто задаваемыми вопросами";
-        $this->PARTNER_NAME = "Георгий";
-        $this->PARTNER_URI = "https://gnvs.ru";
+        $this->MODULE_DESCRIPTION = "Модуль Часто задаваемые вопросы";
+        $this->PARTNER_NAME = "Георгий Фатнев";
+        $this->PARTNER_URI = "https://fatnev.ru";
     }
 
     public function DoInstall()
